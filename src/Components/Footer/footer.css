@@ -1,0 +1,11 @@
+.footer-padding{
+    padding-left: 20px;
+}
+.paragraph-margin{
+    margin-bottom: 0px;
+}
+.horizontal-line{
+    border-bottom: 1.5px;
+    border-bottom-style: solid;
+    width: 100% ;
+}

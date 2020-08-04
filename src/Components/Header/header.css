@@ -1,0 +1,21 @@
+.horizontal-line{
+    border-bottom: 1.5px;
+    border-bottom-style: solid;
+    width: 100% ;
+}
+.navbar{
+    min-height:0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.navbar  a {
+    font-size: 5px;
+}
+element {
+    padding-bottom: 0px;
+    padding-top: 8px;
+}
+nav-brand-element {
+    padding-bottom: 0px;
+    padding-top: 14px;
+}
