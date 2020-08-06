@@ -11,22 +11,22 @@ function Blog() {
         <Header />
         <br />
         <div className="container container-padding">
-            <div className="row offset-2">
+            <div className="row offset-md-2">
                 <div className="card card-style" >
-                    <Link to="blog/crypto-blog">
-                        <img src={process.env.PUBLIC_URL + '/cryptocurrencyLogo.png'} className="card-img-top" alt="CryptoCurrency" />
+                    <Link to="blog/experiences-blog">
+                        <img src={process.env.PUBLIC_URL + '/Images/experiencesLogo.jpeg'} className="card-img-top" alt="CryptoCurrency" />
                         <div className="card-body">
-                            <h5 className="card-title">CryptoCurrency</h5>
-                            <p className="card-text">This bucket contains blogs related to CryptoCurrency and finance part of the CryptoCurrency.</p>
+                            <h5 className="card-title">Experiences</h5>
+                            <p className="card-text">This bucket contains blogs related to Personal Experiences.</p>
                         </div>
                     </Link>
                 </div>
-                <div className="card card-style offset-1" >
-                    <Link to="blog/blockchain-blog">
-                        <img src={process.env.PUBLIC_URL + '/blockchainLogo.png'} className="card-img-top" alt="CryptoCurrency" />
+                <div className="card card-style offset-md-1" >
+                    <Link to="blog/blockchainCrypto-blog">
+                        <img src={process.env.PUBLIC_URL + '/Images/blockchainCryptoLogo.png'} className="card-img-top" alt="CryptoCurrency" />
                         <div className="card-body">
-                            <h5 className="card-title">Blockchain</h5>
-                            <p className="card-text">This bucket contains blogs on Use Cases of Blockchain and how this technology is making transformation.</p>
+                            <h5 className="card-title">Blockchain & CryptoCurrency</h5>
+                            <p className="card-text">This bucket contains blogs on Use Cases of Blockchain and CryptoCurrency.</p>
                         </div>
                     </Link>
                 </div>
@@ -34,22 +34,22 @@ function Blog() {
             <div> 
                 <br />
             </div>
-            <div className="row offset-2">
+            <div className="row offset-md-2">
                 <div className="card card-style" >
                     <Link to="blog/cognitive-science-blog">
-                        <img src={process.env.PUBLIC_URL + '/cognitiveScienceLogo.png'} className="card-img-top" alt="CryptoCurrency" />
+                        <img src={process.env.PUBLIC_URL + '/Images/cognitiveScienceLogo.png'} className="card-img-top" alt="CryptoCurrency" />
                         <div className="card-body">
                             <h5 className="card-title">Cognitive Science</h5>
                             <p className="card-text">This bucket contains blogs related to Cognitive Science.</p>
                         </div>
                     </Link>
                 </div>
-                <div className="card card-style offset-1" >
-                    <Link to="blog/finance-blog">
-                        <img src={process.env.PUBLIC_URL + '/financeLogo.png'} className="card-img-top" alt="CryptoCurrency" />
+                <div className="card card-style offset-md-1" >
+                    <Link to="blog/financePolicies-blog">
+                        <img src={process.env.PUBLIC_URL + '/Images/financePoliciesLogo.png'} className="card-img-top" alt="CryptoCurrency" />
                         <div className="card-body">
-                            <h5 className="card-title">Finance</h5>
-                            <p className="card-text">This bucket covers some of the finance concepts and analysis on some of the financial news.</p>
+                            <h5 className="card-title">Finance & Policies</h5>
+                            <p className="card-text">This bucket contains discussion of the news related to Finance and Policies.</p>
                         </div>
                     </Link>
                 </div>

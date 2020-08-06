@@ -8,9 +8,9 @@ function Footer() {
     <div className="footer">
         <hr className="horizontal-line"/>
         <div className="container">
-            <div className="offset-2 footer-padding">
+            <div className="offset-md-2 footer-padding">
                 <div className="row">  
-                    <div className="col-6">
+                    <div className="col-md-6 col-4">
                         <p className="paragraph-margin">
                             <h5>Abhishek Yadav &ensp;<a className="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/abhishek-yadav-3239b0152/"><i className="fa fa-linkedin"></i></a>
                                 &nbsp;<a className="btn btn-social-icon btn-github" href="https://github.com/codetochangeMinds"><i className="fa fa-github"></i></a>
@@ -25,7 +25,7 @@ function Footer() {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-4">
+                    <div className="col-md-4 col-8">
                         <p>
                             Template Credits: <a href="https://martiansideofthemoon.github.io/">Martian</a>
                         </p>

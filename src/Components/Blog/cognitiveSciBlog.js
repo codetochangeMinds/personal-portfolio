@@ -9,7 +9,7 @@ function CogSciBlog() {
     <div>
         <Header />
             <div className="container">
-                <div className="offset-2 bg-light ">
+                <div className="offset-md-2">
                     <br/>
                     <div className="col-md-4">
                         <nav aria-label="breadcrumb">
@@ -23,7 +23,7 @@ function CogSciBlog() {
                         <h3>Cognitve Science</h3>
                     </div>
                     <div className="col-md-8">
-                        <img src={process.env.PUBLIC_URL + '/cognitiveScienceLogo.png'} width="100%" height="200px" alt="Cognitive Science" />
+                        <img src={process.env.PUBLIC_URL + '/Images/cognitiveScienceLogo.png'} width="100%" height="200px" alt="Cognitive Science" />
                     </div>
                     <br />
                     <br />

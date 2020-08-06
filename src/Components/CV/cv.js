@@ -8,7 +8,7 @@ function CvPage(props) {
     <div>
         <Header />
         <div className="container">
-            <div className="offset-2 col-8">
+            <div className="offset-md-2 offset-1 col-8">
                 <br />
                 <h3>CV</h3>
                 <Link to="/assets/AbhishekCV.pdf">1 Page CV</Link>

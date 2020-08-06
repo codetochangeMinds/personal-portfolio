@@ -1,0 +1,12 @@
+.serif {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.p {
+    font-size: 20px;
+}  
+.light {
+    font-weight: lighter;
+}
+.word-spacing{
+    word-spacing: 1px;
+}
