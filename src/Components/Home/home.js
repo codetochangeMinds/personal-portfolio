@@ -11,7 +11,28 @@ function Home() {
         <div className="container">
             <br />
             <br />
-            <div className="row offset-md-2">
+            <div className="offset-md-2 col-md-8 col-12">
+            <img src={process.env.PUBLIC_URL + '/Images/personalPhoto.jpg'} className="img-fluid float-right" alt="personal image" width="35%" height="auto" />
+                <p>
+                    My name is Abhishek Yadav. I graduated with a Bachelors in Computer Science and 
+                    Engineering at IIT Jammu In 2020. I am currently employed at 
+                    Eagle View as Software Developement Engineer.
+                    I Love to broaden my passion and want to remove my blinker 
+                    and want to see the world from larger perspective. Apart from Software Engineering 
+                    I am interested in Cryptocurrency, 
+                    Blockchain, Investement in Stock Market, Cognitive Science and Indian Philosophy. 
+                    I write blog on above mentioned topics and you can find under the blog tab. In my free
+                    time I love to write blog, read books on leadership and philosophy and MOOCing!
+                </p>
+                <p>
+                    In Summer 2018 I interned at RC Bose Center for Cryptology and Security and worked on 
+                    Blockchain and Cryptocurrency under <a href="https://www.uel.ac.uk/staff/b/sanjay-bhattacherjee">
+                    Dr. Sanjay Bhattacherjee</a>. In Summer 2019 I got a scholarship from Mathematics department of University
+                    of Padua and during the time I worked on developing a Blockchain based solution for Digital Forensics under 
+                    <a href="https://www.math.unipd.it/~conti/"> Dr. Mauro Conti</a>.
+                </p>
+            </div>
+            {/* <div className="row offset-md-2">
                 <div className="col-md-6 col-7 padding-paragraph">
                     <p>My name is Abhishek Yadav. I graduated with a Bachelors in Computer Science and 
                     Engineering at IIT Jammu In 2020. I am currently employed at 
@@ -22,7 +43,6 @@ function Home() {
                     Blockchain, Investement in Stock Market, Cognitive Science and Indian Philosophy. 
                     I write blog on above mentioned topics and you can find under the blog tab. In my free
                     time I love to write blog, read books on leadership and philosophy and MOOCing!
-                    {/* </div>  */}
                     </p>
                 </div>
                 <div className="col-md-4 col-5 padding-image">
@@ -39,7 +59,7 @@ function Home() {
                 </p>
             </div>
             <br />
-            <br />
+            <br /> */}
         </div>
         <Footer />
     </div>
